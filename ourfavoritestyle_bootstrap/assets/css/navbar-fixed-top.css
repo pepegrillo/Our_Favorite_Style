@@ -46,3 +46,6 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+.title_blog{
+    text-align: center !important;
+}
