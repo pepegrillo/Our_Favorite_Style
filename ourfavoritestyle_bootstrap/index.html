@@ -15,6 +15,11 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="assets/css/blog.css" rel="stylesheet">
+    <link href="assets/css/docs.min.css" rel="stylesheet">
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/flexslider.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -38,48 +43,306 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <!--<a class="navbar-brand" href="#">Project name</a>-->
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
+          
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top</a></li>
+            <li class="active"><a href="../navbar/">HOME</a></li>
+            <li><a href="../navbar-static-top/">ABOUT US</a></li>
+            <li><a href="./">OUTFITS</a></li>
+            <li><a href="./">BEAUTY</a></li>
+            <li><a href="./">STYLING</a></li>
+            <li><a href="./">TRENDS</a></li>
+            <li><a href="./">PRESS</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
     <div class="container">
+        
+        <div class="page-header">
+            <img class="img-responsive" data-src="holder.js/1140x250/auto" alt="Generic placeholder image">
+        </div>
+        
+        <div class="col-sm-12 header_search_social">
+            
+            <div class="row">
+                
+                <div class="col-sm-6">
+                    <form class="bs-example-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </form>
+                </div><!-- /.col-sm-4 -->
+                
+                <div class="col-sm-6 col-xs-12 img-social">
+                    <a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a>
+                    <a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a>
+                    <a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a>
+                    <a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a>
+                    <a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a>
+                    <a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a>
+                </div>
+                
+            </div><!-- /.row -->
+            
+        </div><!-- /.col-sm-12 -->
+        
+        <div class="col-sm-12 header_search_social">
+            
+            <!-- Place somewhere in the <body> of your page -->
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img data-src="holder.js/1110x350/social" />
+                    </li>
+                    <li>
+                        <img data-src="holder.js/1110x350/vine" />
+                    </li>
+                    <li>
+                        <img data-src="holder.js/1110x350/industrial" />
+                    </li>
+                    <li>
+                        <img data-src="holder.js/1110x350/lava" />
+                    </li>
+                </ul>
+            </div>
+            
+        </div><!-- /.col-sm-12 -->
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+      <div class="blog-header">
+        <h1 class="blog-title"> </h1>
+        <p class="lead blog-description">&nbsp;</p><br><br>
       </div>
 
-    </div> <!-- /container -->
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+                <h2 class="blog-post-title">Blackout</h2>
+                <p class="blog-post-meta">FRIDay, january 24, 2014 by <a href="#">Mark</a></p>
+                <img data-src="holder.js/100%x800/social" />
+                <!--<p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>-->
+                <hr>
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                
+                <div class="col-sm-12">
+                    <div class="read-more">
+                        <a href="#"    >Read more...</a>
+                    </div>
+                </div>
+                
+                <p></p><br>
+                
+            </div><!-- /.blog-post -->
+            
+          
+            <div class="blog-post">
+                <p class="blog-post-meta text-aislado">You can also see...</p>
+                
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180/vine" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180/vine" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180/vine" alt="...">
+                        </a>
+                    </div>
+                </div>
+                
+                <p></p><br>
+                
+            </div><!-- /.blog-post also commented -->
+          
+
+          <div class="blog-post">
+                <h2 class="blog-post-title">Blackout</h2>
+                <p class="blog-post-meta">FRIDay, january 24, 2014 by <a href="#">Mark</a></p>
+                <img data-src="holder.js/100%x800/social" />
+                <!--<p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>-->
+                <hr>
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                
+                <div class="col-sm-12">
+                    <div class="read-more">
+                        <a href="#"    >Read more...</a>
+                    </div>
+                </div>
+                
+                <p></p><br>
+                
+            </div><!-- /.blog-post -->
+            
+          
+            <div class="blog-post">
+                <p class="blog-post-meta text-aislado">You can also see...</p>
+                
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180/vine" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180/vine" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img data-src="holder.js/100%x180/vine" alt="...">
+                        </a>
+                    </div>
+                </div>
+                
+                <p></p><br>
+                
+            </div><!-- /.blog-post also commented -->
+
+          <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <p class="titulo_sidebar">
+                    INSTAGRAM
+                </p>
+                <!-- Place somewhere in the <body> of your page -->
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img data-src="holder.js/255x255/social" />
+                        </li>
+                        <li>
+                            <img data-src="holder.js/255x255/vine" />
+                        </li>
+                        <li>
+                            <img data-src="holder.js/255x255/industrial" />
+                        </li>
+                        <li>
+                            <img data-src="holder.js/255x255/lava" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="sidebar-module sidebar-module-inset">
+                <p class="titulo_sidebar">
+                    SOCIAL
+                </p>
+                
+                    <ol class="breadcrumb">
+                        <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/32x32/social"></a></li>
+                        <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/32x32/social"></a></li>
+                        <li class="active"><img class="img-responsive img-socialnetwork" data-src="holder.js/32x32/social"></li>
+                        <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/32x32/social"></a></li>
+                        <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/32x32/social"></a></li>
+                        <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/32x32/social"></a></li>
+                    </ol>
+                
+                <img class="img-responsive img-socialnetwork" data-src="holder.js/100%x200/social"><hr>                             
+                <img class="img-responsive img-socialnetwork" data-src="holder.js/100%x200/social"><hr>
+                <img class="img-responsive img-socialnetwork" data-src="holder.js/100%x200/social"><hr>
+                <img class="img-responsive img-socialnetwork" data-src="holder.js/100%x200/social"><hr>
+                <img class="img-responsive img-socialnetwork" data-src="holder.js/100%x200/social">
+                
+            </div>
+            
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+              <li><a href="#">March 2013</a></li>
+              <li><a href="#">February 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+              <ol class="list-unstyled">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Pinterest</a></li>
+                  <li><a href="#">Google +</a></li>
+                  <li><a href="#">Youtube</a></li>
+              </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+      <div class="blog-footer">
+          
+              
+              <div class="col-sm-6">
+                  <ul class="nav nav-pills nav-justified">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">outfits</a></li>
+                      <li><a href="#">Beauty</a></li>
+                      <li><a href="#">Styling</a></li>
+                      <li><a href="#">Trends</a></li>
+                      <li><a href="#">Press</a></li>
+                  </ul> 
+              </div>
+              <div class="col-sm-6">
+                  <ol class="breadcrumb">
+                      <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a></li>
+                      <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a></li>
+                      <li class="active"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></li>
+                      <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a></li>
+                      <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a></li>
+                      <li><a href="#"><img class="img-responsive img-socialnetwork" data-src="holder.js/48x48/social"></a></li>
+                  </ol>
+              </div>
+              
+              <div class="col-xs-12">
+                  <p>&copy; ALL RIGHTS RESERVED @RAQUEL MAR&Iacute;A JOS&Eacute; <a href="http://getbootstrap.com">DESIGN AND DEVELOPMENT</a> by <a href="https://www.i-moves.com">IMOVES</a>.</p>
+                  <p>
+                      <a href="#">Back to top</a>
+                  </p>
+              </div>
+              
+          <div class="clearfix">
+              
+          </div>
+      </div>
 
 
     <!-- Bootstrap core JavaScript
@@ -87,5 +350,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+      
+    <!-- Bootstrap core CSS -->
+    <script src="assets/js/jquery.flexslider.js"></script>
+    <script src="assets/js/slider.js"></script>
+    
   </body>
 </html>

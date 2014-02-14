@@ -1,4 +1,48 @@
 body {
   min-height: 2000px;
-  padding-top: 70px;
+  padding-top: 15px;
+}
+
+
+/*Modiefied Personalized @pepitoch*/
+
+.header_search_social{
+    background: #f1f1f1;
+    padding: 10px 15px 10px 15px;
+}
+.header_search_social .bs-example-form{
+    padding: 7px 0px 2px 0px;
+}
+.header_search_social .img-social{
+    text-align: center;
+}
+.header_search_social .img-social a{
+    margin-right: 5px;
+}
+.read-more{
+    width: 200px;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #9e68a2;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    
+}
+.read-more:hover{
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.text-aislado{
+    color: #9e68a2 !important;
+}
+.titulo_sidebar{
+    color: #9e68a2;
+    text-transform: uppercase;
+    text-align: center;
 }
